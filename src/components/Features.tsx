@@ -6,10 +6,10 @@ import FeatureCard from './FeatureCard'
 
 const Features = () => {
   return (
-    <section id="features" className="px-6 bg-neutral-light-gray-blue mt-6 py-14">
+    <section id="features" className="px-6 bg-neutral-light-gray-blue mt-24 py-14">
       <div className="text-center">
-        <h2 className="text-[32px] leading-tight font-light">Why choose Easybank?</h2>
-        <p className="text-neutral-gray-blue mt-6 text-sm leading-relaxed">We leveraged Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
+        <h2 className="text-[30.5px] text-primary-dark-blue leading-tight font-light">Why choose Easybank?</h2>
+        <p className="text-neutral-gray-blue mt-4 text-sm leading-relaxed">We leveraged Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
       </div>
 
       <div id="features-list" className="space-y-8 mt-16">

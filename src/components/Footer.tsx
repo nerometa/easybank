@@ -8,7 +8,7 @@ import { Link } from '@radix-ui/themes'
 
 const Footer = () => {
   return (
-    <footer className="bg-primary-dark-blue flex flex-col items-center p-10 space-y-8">
+    <footer className="bg-primary-dark-blue flex flex-col items-center p-10 space-y-[2.125rem]">
       <img src={logoSrc} alt="Easybank" />
       <ul className="flex gap-4" aria-label="socials">
         <li><Link href="#"><img src={iconFacebook} alt="facebook" className="w-6" /></Link></li>
@@ -17,7 +17,7 @@ const Footer = () => {
         <li><Link href="#"><img src={iconPinterest} alt="pinterest" className="w-6" /></Link></li>
         <li><Link href="#"><img src={iconInstagram} alt="instagram" className="w-6" /></Link></li>
       </ul>
-      <ul className="text-center text-sm space-y-[14px]">
+      <ul className="text-center text-sm space-y-[13px]">
         <li>
           <Link className="text-white">About Us</Link>
         </li>

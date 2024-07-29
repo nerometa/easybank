@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 .radix-themes {
-  --default-font-family: 'Public Sans', Helvetica, sans-serif
+    --default-font-family: "Public Sans", Helvetica, sans-serif;
 }
 
 .cta-btn {
-  @apply px-8 py-3 bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan font-bold text-sm hover:shadow-[inset_0_0_100px_100px_rgba(255,255,255,0.3)] rounded-full text-white hover:cursor-pointer
+    @apply px-8 py-3 bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan font-bold text-sm hover:shadow-[inset_0_0_100px_100px_rgba(255,255,255,0.3)] rounded-full text-white hover:cursor-pointer;
 }
 
 .nav-link {
-  @apply hover:text-primary-dark-blue py-8 hover:bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan bg-[length:100%_5px] bg-no-repeat bg-bottom
+    @apply transition-all ease-out duration-100 text-lg lg:text-sm hover:text-primary-dark-blue block lg:inline py-2 lg:py-9 hover:bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan hover:bg-[length:100%_5px] hover:bg-no-repeat bg-bottom;
 }
