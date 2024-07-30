@@ -16,7 +16,7 @@ const Navbar = () => {
       ></div>
       <nav className="max-w-6xl mx-auto py-[1.375rem] lg:py-0 px-6 flex justify-between items-center">
         <div>
-          <img alt="Easybank Icon" src="/images/logo.svg" />
+          <img alt="Easybank Icon" src="images/logo.svg" />
         </div>
         <ul className="hidden lg:flex bg-white gap-8 text-sm py-8 text-neutral-gray-blue">
           <li>

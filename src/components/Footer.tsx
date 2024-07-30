@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-primary-dark-blue ">
       <div className="lg:grid text-center p-10 footer-grid max-w-6xl mx-auto">
         <Link className="[grid-area:logo] inline-block">
-          <img src="/images/logo-white.svg" alt="Easybank" />
+          <img src="images/logo-white.svg" alt="Easybank" />
         </Link>
         <ul className="flex gap-4 mt-[2.125rem] items-center justify-center lg:justify-start [grid-area:socials]" aria-label="socials">
           <li>

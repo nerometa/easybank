@@ -10,10 +10,10 @@ const Features = () => {
         </div>
 
         <div id="features-list" className="space-y-8 mt-16 lg:flex lg:space-y-0 lg:space-x-4 lg:mt-8">
-          <FeatureCard iconSrc="/images/icon-online.svg" title="Online Banking" description="Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world." />
-          <FeatureCard iconSrc="/images/icon-budgeting.svg" title="Simple Budgeting" description="See exactly where your money goes each month. Receive notifications when you're close to your hitting limits." />
-          <FeatureCard iconSrc="/images/icon-onboarding.svg" title="Fast Onboarding" description="We don't do branches. Open your account in minutes online and start taking control of your finances right away." />
-          <FeatureCard iconSrc="/images/icon-api.svg" title="Open API" description="Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier." />
+          <FeatureCard iconSrc="images/icon-online.svg" title="Online Banking" description="Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world." />
+          <FeatureCard iconSrc="images/icon-budgeting.svg" title="Simple Budgeting" description="See exactly where your money goes each month. Receive notifications when you're close to your hitting limits." />
+          <FeatureCard iconSrc="images/icon-onboarding.svg" title="Fast Onboarding" description="We don't do branches. Open your account in minutes online and start taking control of your finances right away." />
+          <FeatureCard iconSrc="images/icon-api.svg" title="Open API" description="Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier." />
         </div>
       </div>
     </section>
