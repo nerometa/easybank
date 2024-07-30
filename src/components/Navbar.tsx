@@ -16,33 +16,35 @@ const Navbar = () => {
       ></div>
       <nav className="max-w-6xl mx-auto py-[1.375rem] lg:py-0 px-6 flex justify-between items-center">
         <div>
-          <img alt="Easybank Icon" src="images/logo.svg" />
+          <Link href="/">
+            <img alt="Easybank Icon" src="images/logo.svg" />
+          </Link>
         </div>
         <ul className="hidden lg:flex bg-white gap-8 text-sm py-8 text-neutral-gray-blue">
           <li>
-            <a className="nav-link" href="#">
+            <Link className="nav-link" href="#">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="nav-link" href="#">
+            <Link className="nav-link" href="#">
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="nav-link" href="#">
+            <Link className="nav-link" href="#">
               Contact
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="nav-link" href="#">
+            <Link className="nav-link" href="#">
               Blog
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="nav-link" href="#">
+            <Link className="nav-link" href="#">
               Careers
-            </a>
+            </Link>
           </li>
         </ul>
         <Button

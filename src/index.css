@@ -15,7 +15,7 @@ body {
 }
 
 .nav-link {
-    @apply transition-all ease-out duration-100 text-lg lg:text-sm hover:text-primary-dark-blue block lg:inline py-2 lg:py-9 hover:bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan hover:bg-[length:100%_5px] hover:bg-no-repeat bg-bottom;
+    @apply no-underline text-neutral-gray-blue transition-all ease-out duration-100 text-lg lg:text-sm hover:text-primary-dark-blue block lg:inline py-2 lg:py-9 hover:bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan hover:bg-[length:100%_5px] hover:bg-no-repeat bg-bottom;
 }
 
 .link {
