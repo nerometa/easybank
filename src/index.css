@@ -6,10 +6,28 @@
     --default-font-family: "Public Sans", Helvetica, sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .cta-btn {
-    @apply px-8 py-3 bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan font-bold text-sm hover:shadow-[inset_0_0_100px_100px_rgba(255,255,255,0.3)] rounded-full text-white hover:cursor-pointer;
+    @apply px-8 py-3 bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan font-bold text-sm hover:shadow-[inset_0_0_100px_100px_rgba(255,255,255,0.3)] rounded-full text-white hover:cursor-pointer no-underline;
 }
 
 .nav-link {
     @apply transition-all ease-out duration-100 text-lg lg:text-sm hover:text-primary-dark-blue block lg:inline py-2 lg:py-9 hover:bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan hover:bg-[length:100%_5px] hover:bg-no-repeat bg-bottom;
+}
+
+.link {
+    @apply hover:text-primary-lime-green transition-colors duration-150 ease-out
+}
+
+.hero-img {
+    @apply bg-[url('/images/bg-intro-mobile.svg')] bg-no-repeat relative bg-center bg-cover min-h-[373px] before:bg-[url('/images/image-mockups.png')] before:size-full before:absolute before:bg-[center_bottom] before:bg-no-repeat before:bg-[length:90%] lg:bg-none lg:before:bg-[url('/images/bg-intro-desktop.svg')] lg:after:bg-[url('/images/image-mockups.png')] lg:after:absolute lg:before:bg-[length:122%] lg:before:bg-[left_72%] lg:after:bg-[center_104%] lg:after:bg-no-repeat lg:after:bg-[length:95%] lg:after:w-[121%] lg:after:h-[124%] lg:after:left-[24%] lg:bg-left lg:before:w-[150%] lg:min-h-[41rem]
+}
+
+.footer-grid {
+    grid-template-areas:
+    'logo links1 links2 cta'
+    'socials links1 links2 copyright'
 }

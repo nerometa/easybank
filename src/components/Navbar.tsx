@@ -1,13 +1,9 @@
 import { Button, Link } from "@radix-ui/themes";
-import logoSrc from "@/assets/images/logo.svg";
-import hamburgerIconSrc from "@/assets/images/icon-hamburger.svg";
-import closeIconSrc from "@/assets/images/icon-close.svg";
 import { useState } from "react";
 import { cn } from "@/utils";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-
   const handleOpen = () => setOpen(!open);
 
   return (
@@ -19,8 +15,8 @@ const Navbar = () => {
         )}
       ></div>
       <nav className="max-w-6xl mx-auto py-[1.375rem] lg:py-0 px-6 flex justify-between items-center">
-        <div className="lg:p-4">
-          <img alt="Easybank Icon" src={logoSrc} />
+        <div>
+          <img alt="Easybank Icon" src="/images/logo.svg" />
         </div>
         <ul className="hidden lg:flex bg-white gap-8 text-sm py-8 text-neutral-gray-blue">
           <li>
@@ -55,9 +51,9 @@ const Navbar = () => {
           className="lg:hidden"
           data-open={open}
         >
-          <img alt="Menu Icon" src={open ? closeIconSrc : hamburgerIconSrc} />
+          <img alt={open ? "Close" : "Menu"} src={open ? "/images/icon-close.svg" : "/images/icon-hamburger.svg"} />
         </Button>
-        <Link className="cta-btn hidden lg:inline-block">Request Invite</Link>
+        <Link href="#" className="cta-btn hidden lg:inline-block">Request Invite</Link>
       </nav>
 
       {/* I learned something new about this element and its styling */}
