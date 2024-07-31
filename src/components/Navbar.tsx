@@ -53,7 +53,7 @@ const Navbar = () => {
           className="lg:hidden"
           data-open={open}
         >
-          <img alt={open ? "Close" : "Menu"} src={open ? "/images/icon-close.svg" : "/images/icon-hamburger.svg"} />
+          <img alt={open ? "Close" : "Menu"} src={open ? "images/icon-close.svg" : "images/icon-hamburger.svg"} />
         </Button>
         <Link href="#" className="cta-btn hidden lg:inline-block">Request Invite</Link>
       </nav>
