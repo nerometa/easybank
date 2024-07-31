@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Easybank preview](images/easybank-preview.png)
+![Easybank preview](/public/images/easybank-preview.png)
 
 ### Links
 
